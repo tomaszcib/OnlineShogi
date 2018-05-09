@@ -8,7 +8,7 @@ This program is a simple computer version of the Japanese chess game, also known
 * in-game chat,
 * portability: game works on every OS with the Java virtual machine installed
 
-![Shogi screenshot](https://github.com/tomaszcib/Shogi/shogi_screen.png)
+![Shogi screenshot](https://github.com/tomaszcib/Shogi/blob/master/shogi_screen.png)
 
 ## Binaries
 See [release](https://github.com/tomaszcib/Shogi/releases) directory for binaries and other download files.
