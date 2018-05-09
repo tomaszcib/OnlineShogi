@@ -104,8 +104,6 @@ public abstract class Connection extends Thread{
             forceClose = true;
         }
 
-        /* Interpretacja wiadomości */
-
     }
 
     /**
@@ -123,12 +121,12 @@ public abstract class Connection extends Thread{
      * @param objects various objects depending on type of the message.
      *                <ul>
      *                <li><b>0:</b> no objects</li>
-     *                <li><b>1:</b> (String) -> (user's name)</li>
-     *                <li><b>2:</b> (int, int, int, boolean, String) ->
+     *                <li><b>1:</b> (String) - (user's name)</li>
+     *                <li><b>2:</b> (int, int, int, boolean, String) -
      *                (pieceId, source field, target field, should promote after move?, control string)</li>
-     *                <li><b>3:</b> (String) -> (chat message to be displayed)</li>
+     *                <li><b>3:</b> (String) - (chat message to be displayed)</li>
      *                <li><b>4:</b> no objects</li>
-     *                <li><b>5:</b> (int, int, String) -> (player ID, value of player's counter, control string)</li>
+     *                <li><b>5:</b> (int, int, String) - (player ID, value of player's counter, control string)</li>
      *                </ul>
      */
     public void writeToPeer(byte b, Object... objects){

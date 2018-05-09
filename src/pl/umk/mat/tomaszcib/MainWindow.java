@@ -164,7 +164,7 @@ public class MainWindow extends JApplet{
      *     <li><b>0:</b> no active connection, user can either host or join a game</li>
      *     <li><b>1:</b> program is waiting for a partner to connect or attempting
      *             to connect to the server</li>
-     *     <li><b>2:</b> connection with the partner has been established.</v></li>
+     *     <li><b>2:</b> connection with the partner has been established.</li>
      * </ul>
      */
     public static void setMode(int mode) {
