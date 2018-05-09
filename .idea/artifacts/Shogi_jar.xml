@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Shogi:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Shogi_jar</output-path>
+    <root id="archive" name="Shogi.jar">
+      <element id="module-output" name="Shogi" />
+      <element id="directory" name="graphics">
+        <element id="dir-copy" path="$PROJECT_DIR$/graphics" />
+      </element>
+    </root>
+  </artifact>
+</component>
